@@ -14,7 +14,7 @@ namespace MilitantChickensTransferProtocol.Terminal
             client.Connect("127.0.0.1", "Test Message");
 
             //Debug Termination of Client -- TEMP DEBUG CODE
-            Console.WriteLine("Press Enter to continue");
+            Console.WriteLine("Press Enter to close client");
             Console.ReadLine();
             
         }
